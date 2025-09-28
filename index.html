@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProCure Solutions - Professional Procurement Services</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <div class="navbar bg-base-100 shadow-lg">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"></path>
+          </svg>
+        </div>
+        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <a class="btn btn-ghost text-xl font-bold text-primary">
+        <i class="fas fa-shopping-cart mr-2"></i>ProCure Solutions
+      </a>
+    </div>
+    <div class="navbar-center hidden lg:flex">
+      <ul class="menu menu-horizontal px-1">
+        <li><a href="#services" class="hover:text-primary">Services</a></li>
+        <li><a href="#about" class="hover:text-primary">About</a></li>
+        <li><a href="#contact" class="hover:text-primary">Contact</a></li>
+      </ul>
+    </div>
+    <div class="navbar-end">
+      <a class="btn btn-primary" href="#contact">Get Quote</a>
+    </div>
+  </div>
+  <!-- Hero Section -->
+  <div class="hero min-h-screen bg-gradient-to-r from-primary/10 to-secondary/10">
+    <div class="hero-content text-center">
+      <div class="max-w-4xl">
+        <h1 class="text-5xl font-bold mb-6">Streamline Your Procurement Process</h1>
+        <p class="text-xl mb-8 text-base-content/80">
+          Professional procurement services that save time, reduce costs, and ensure quality. 
+          From sourcing to delivery, we handle it all with expertise and transparency.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="#services" class="btn btn-primary btn-lg">
+            <i class="fas fa-rocket mr-2"></i>Explore Services
+          </a>
+          <a href="#contact" class="btn btn-outline btn-lg">
+            <i class="fas fa-phone mr-2"></i>Contact Us
+          </a>
+        </div>
+        <div class="stats shadow mt-12 bg-base-100">
+          <div class="stat">
+            <div class="stat-figure text-primary">
+              <i class="fas fa-users text-3xl"></i>
+            </div>
+            <div class="stat-title">Happy Clients</div>
+            <div class="stat-value text-primary">500+</div>
+          </div>
+          <div class="stat">
+            <div class="stat-figure text-secondary">
+              <i class="fas fa-dollar-sign text-3xl"></i>
+            </div>
+            <div class="stat-title">Cost Savings</div>
+            <div class="stat-value text-secondary">25%</div>
+          </div>
+          <div class="stat">
+            <div class="stat-figure text-accent">
+              <i class="fas fa-clock text-3xl"></i>
+            </div>
+            <div class="stat-title">Time Saved</div>
+            <div class="stat-value text-accent">40%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Services Section -->
+  <section id="services" class="py-20 bg-base-200">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold mb-4">Our Procurement Services</h2>
+        <p class="text-xl text-base-content/70 max-w-2xl mx-auto">
+          Comprehensive procurement solutions tailored to your business needs
+        </p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow">
+          <div class="card-body text-center">
+            <div class="text-primary text-5xl mb-4">
+              <i class="fas fa-search"></i>
+            </div>
+            <h3 class="card-title justify-center text-2xl mb-4">Strategic Sourcing</h3>
+            <p class="text-base-content/70">
+              Identify and evaluate suppliers to find the best value propositions for your organization.
+            </p>
+            <div class="card-actions justify-center mt-6">
+              <button class="btn btn-outline btn-primary">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow">
+          <div class="card-body text-center">
+            <div class="text-secondary text-5xl mb-4">
+              <i class="fas fa-handshake"></i>
+            </div>
+            <h3 class="card-title justify-center text-2xl mb-4">Vendor Management</h3>
+            <p class="text-base-content/70">
+              Build and maintain strong relationships with suppliers while ensuring performance standards.
+            </p>
+            <div class="card-actions justify-center mt-6">
+              <button class="btn btn-outline btn-secondary">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow">
+          <div class="card-body text-center">
+            <div class="text-accent text-5xl mb-4">
+              <i class="fas fa-file-contract"></i>
+            </div>
+            <h3 class="card-title justify-center text-2xl mb-4">Contract Negotiation</h3>
+            <p class="text-base-content/70">
+              Expert negotiation services to secure favorable terms and conditions for your contracts.
+            </p>
+            <div class="card-actions justify-center mt-6">
+              <button class="btn btn-outline btn-accent">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow">
+          <div class="card-body text-center">
+            <div class="text-info text-5xl mb-4">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3 class="card-title justify-center text-2xl mb-4">Cost Analysis</h3>
+            <p class="text-base-content/70">
+              Detailed cost breakdowns and analysis to optimize your procurement spend and ROI.
+            </p>
+            <div class="card-actions justify-center mt-6">
+              <button class="btn btn-outline btn-info">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow">
+          <div class="card-body text-center">
+            <div class="text-warning text-5xl mb-4">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3 class="card-title justify-center text-2xl mb-4">Risk Management</h3>
+            <p class="text-base-content/70">
+              Identify and mitigate procurement risks to ensure business continuity and compliance.
+            </p>
+            <div class="card-actions justify-center mt-6">
+              <button class="btn btn-outline btn-warning">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow">
+          <div class="card-body text-center">
+            <div class="text-success text-5xl mb-4">
+              <i class="fas fa-cogs"></i>
+            </div>
+            <h3 class="card-title justify-center text-2xl mb-4">Process Optimization</h3>
+            <p class="text-base-content/70">
+              Streamline your procurement processes for maximum efficiency and cost-effectiveness.
+            </p>
+            <div class="card-actions justify-center mt-6">
+              <button class="btn btn-outline btn-success">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-base-100">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-4xl font-bold mb-6">Why Choose ProCure Solutions?</h2>
+          <p class="text-lg text-base-content/70 mb-6">
+            With over 15 years of experience in procurement and supply chain management, 
+            we deliver results that matter to your bottom line.
+          </p>
+          <div class="space-y-4">
+            <div class="flex items-start gap-4">
+              <div class="badge badge-primary badge-lg">
+                <i class="fas fa-check"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-lg">Proven Track Record</h4>
+                <p class="text-base-content/70">Successfully managed procurement for Fortune 500 companies</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <div class="badge badge-secondary badge-lg">
+                <i class="fas fa-check"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-lg">Cost Optimization</h4>
+                <p class="text-base-content/70">Average 25% reduction in procurement costs for our clients</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <div class="badge badge-accent badge-lg">
+                <i class="fas fa-check"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-lg">Technology-Driven</h4>
+                <p class="text-base-content/70">Latest procurement technologies and data analytics</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <img src="https://picsum.photos/id/1043/600/400" alt="Procurement Team" class="rounded-lg shadow-xl w-full">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-base-200">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold mb-4">Get Started Today</h2>
+        <p class="text-xl text-base-content/70">
+          Ready to optimize your procurement process? Contact us for a free consultation.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div class="card bg-base-100 shadow-xl">
+          <div class="card-body">
+            <h3 class="card-title text-2xl mb-6">Send us a Message</h3>
+            <form class="space-y-4">
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Full Name</span>
+                </label>
+                <input type="text" placeholder="Your full name" class="input input-bordered" required>
+              </div>
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Email</span>
+                </label>
+                <input type="email" placeholder="your.email@company.com" class="input input-bordered" required>
+              </div>
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Company</span>
+                </label>
+                <input type="text" placeholder="Your company name" class="input input-bordered">
+              </div>
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Message</span>
+                </label>
+                <textarea class="textarea textarea-bordered h-24" placeholder="Tell us about your procurement needs..."></textarea>
+              </div>
+              <div class="form-control mt-6">
+                <button type="submit" class="btn btn-primary">
+                  <i class="fas fa-paper-plane mr-2"></i>Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="space-y-8">
+          <div class="card bg-base-100 shadow-xl">
+            <div class="card-body">
+              <h3 class="card-title text-2xl mb-6">Contact Information</h3>
+              <div class="space-y-4">
+                <div class="flex items-center gap-4">
+                  <div class="text-primary text-2xl">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold">Address</h4>
+                    <p class="text-base-content/70">123 Business District, Suite 456<br>New York, NY 10001</p>
+                  </div>
+                </div>
+                <div class="flex items-center gap-4">
+                  <div class="text-secondary text-2xl">
+                    <i class="fas fa-phone"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold">Phone</h4>
+                    <p class="text-base-content/70">+1 (555) 123-4567</p>
+                  </div>
+                </div>
+                <div class="flex items-center gap-4">
+                  <div class="text-accent text-2xl">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold">Email</h4>
+                    <p class="text-base-content/70">info@procuresolutions.com</p>
+                  </div>
+                </div>
+                <div class="flex items-center gap-4">
+                  <div class="text-info text-2xl">
+                    <i class="fas fa-clock"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold">Business Hours</h4>
+                    <p class="text-base-content/70">Mon - Fri: 9:00 AM - 6:00 PM<br>Sat: 10:00 AM - 2:00 PM</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="footer footer-center p-10 bg-base-300 text-base-content">
+    <aside>
+      <div class="text-primary text-4xl mb-4">
+        <i class="fas fa-shopping-cart"></i>
+      </div>
+      <p class="font-bold text-xl">ProCure Solutions</p>
+      <p class="text-base-content/70">Professional Procurement Services Since 2008</p>
+      <p class="text-base-content/70">Copyright © 2024 - All rights reserved</p>
+    </aside>
+    <nav>
+      <div class="grid grid-flow-col gap-4">
+        <a class="text-2xl hover:text-primary transition-colors">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a class="text-2xl hover:text-primary transition-colors">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a class="text-2xl hover:text-primary transition-colors">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </div>
+    </nav>
+  </footer>
+</body>
+</html>
